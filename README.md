@@ -3,6 +3,8 @@
 ***STRUCTURE DE L'APPLICATION***
 L'application contient 5 activités au total, la principale qui a 4 boutons qui vous emmène à différentes 4 activités différentes (activité de cuisson, température, carburant, vitesse) et un 5ème bouton qui lance une intention implicente (j'ai choisi la caméra)
 
+![Screenshot_2021-03-02-21-16-17-172_com example uc](https://user-images.githubusercontent.com/61503552/109715142-93884880-7ba3-11eb-92a3-f99eaa1d8789.jpg)
+
 
 ***ACTIVITÉS «CONVERTIR»***
 les 4 activités ont une structure similaire, j'ai choisi d'implémenter la conversion avec des groupes radio, il vous suffit d'entrer la valeur et de choisir l'unité que vous souhaitez convertir, elle convertira automatiquement l'unité sélectionnée en toutes les autres unités.
