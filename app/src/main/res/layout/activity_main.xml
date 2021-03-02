@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Cooking_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/COOKING"
+        app:layout_constraintEnd_toEndOf="@+id/cooking"
+        app:layout_constraintStart_toStartOf="@+id/cooking"
+        app:layout_constraintTop_toBottomOf="@+id/cooking" />
+
+    <ImageButton
+        android:id="@+id/cooking"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="100dp"
+        android:contentDescription="@string/cooking_desc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_cooking" />
+
+    <ImageButton
+        android:id="@+id/temperature"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="45dp"
+        android:contentDescription="@string/temperature_desc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_temperature" />
+
+    <TextView
+        android:id="@+id/Temperature_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/temperature"
+        app:layout_constraintEnd_toEndOf="@+id/temperature"
+        app:layout_constraintStart_toStartOf="@+id/temperature"
+        app:layout_constraintTop_toBottomOf="@+id/temperature" />
+
+
+
+
+    <TextView
+        android:id="@+id/Fuel_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/fuel"
+        app:layout_constraintEnd_toEndOf="@+id/fuel"
+        app:layout_constraintStart_toStartOf="@+id/fuel"
+        app:layout_constraintTop_toBottomOf="@+id/fuel" />
+
+    <ImageButton
+        android:id="@+id/fuel"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="300dp"
+        android:contentDescription="@string/cooking_desc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_fuel" />
+
+
+    <ImageButton
+        android:id="@+id/speed"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="45dp"
+        android:contentDescription="@string/speed_desc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_speed" />
+
+    <TextView
+        android:id="@+id/Speed_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/speed"
+        app:layout_constraintEnd_toEndOf="@+id/speed"
+        app:layout_constraintStart_toStartOf="@+id/speed"
+        app:layout_constraintTop_toBottomOf="@+id/speed" />
+
+
+    <ImageButton
+        android:id="@+id/camera"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="50dp"
+        android:contentDescription="@string/camera_desc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_camera" />
+
+    <TextView
+        android:id="@+id/Camera_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/camera"
+        app:layout_constraintEnd_toEndOf="@+id/camera"
+        app:layout_constraintStart_toStartOf="@+id/camera"
+        app:layout_constraintTop_toBottomOf="@+id/camera" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

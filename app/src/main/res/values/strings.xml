@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Unit Converter</string>
+    <string name="cooking">cooking</string>
+    <string name="cooking_desc">Cooking</string>
+    <string name="COOKING">COOKING</string>
+    <string name="value">Value</string>
+    <string name="celsius">Celsius</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="kelvin">Kelvin</string>
+    <string name="result">Result</string>
+    <string name="convert">Convert</string>
+    <string name="_0">0</string>
+    <string name="milliliter">Milliliter</string>
+    <string name="teaspoon">Teaspoon</string>
+    <string name="tablespoon">Tablespoon</string>
+    <string name="cup">Cup</string>
+    <string name="meter_second">Meter/second</string>
+    <string name="kilometer_hour">Kilometer/hour</string>
+    <string name="mile_hour">Mile/hour</string>
+    <string name="kilometer_liter">Kilometer/liter</string>
+    <string name="mile_liter">Mile/liter</string>
+    <string name="kilometer_gallon">Kilometer/gallon</string>
+    <string name="fuel">FUEL</string>
+    <string name="temperature">TEMPERATURE</string>
+    <string name="speed">SPEED</string>
+    <string name="temperature_desc">temperature_desc</string>
+    <string name="speed_desc">speed_desc</string>
+    <string name="camera_desc">Camera_desc</string>
+    <string name="camera">CAMERA</string>
+
+
+    <string-array name="Spinner_items">
+        <item>Cooking</item>
+        <item>Temperature</item>
+        <item>Fuel</item>
+        <item>Speed</item>
+    </string-array>
+
+
+    <string-array name="Spinner_items2">
+        <item>Temperature</item>
+        <item>Cooking</item>
+        <item>Fuel</item>
+        <item>Speed</item>
+    </string-array>
+
+
+    <string-array name="Spinner_items3">
+        <item>Fuel</item>
+        <item>Cooking</item>
+        <item>Temperature</item>
+        <item>Speed</item>
+    </string-array>
+
+
+    <string-array name="Spinner_items4">
+        <item>Speed</item>
+        <item>Cooking</item>
+        <item>Temperature</item>
+        <item>Fuel</item>
+    </string-array>
+
+
+
+
+
+
+</resources>

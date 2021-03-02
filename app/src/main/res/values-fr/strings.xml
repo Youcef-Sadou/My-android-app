@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Convertisseur d\'unité</string>
+    <string name="cooking">cuisine</string>
+    <string name="cooking_desc">Cuisine</string>
+    <string name="COOKING">CUISINE</string>
+    <string name="value">Valeur</string>
+    <string name="celsius">Celsius</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="kelvin">Kelvin</string>
+    <string name="result">Résultat</string>
+    <string name="convert">Convertir</string>
+    <string name="_0">0</string>
+    <string name="milliliter">Milliliter</string>
+    <string name="teaspoon">Cuillère à café</string>
+    <string name="tablespoon">Cuillerée à soupe</string>
+    <string name="cup">Verre</string>
+    <string name="meter_second">"Mètre / seconde "</string>
+    <string name="kilometer_hour">"Kilomètre / heure "</string>
+    <string name="mile_hour">"Mile / heure "</string>
+    <string name="kilometer_liter">"Kilomètre / litre "</string>
+    <string name="mile_liter">"Mile / litre "</string>
+    <string name="kilometer_gallon">"Kilomètre / gallon "</string>
+    <string name="fuel">CARBURANT</string>
+    <string name="temperature">TEMPÉRATURE</string>
+    <string name="speed">VITESSE</string>
+    <string name="temperature_desc">temperature_desc</string>
+    <string name="speed_desc">vitesse_desc</string>
+    <string name="camera_desc">Caméra_desc</string>
+    <string name="camera">CAMÉRA</string>
+
+
+
+    <string-array name="Spinner_items">
+        <item>Cuisine</item>
+        <item>Température</item>
+        <item>Carburant</item>
+        <item>Vitesse</item>
+    </string-array>
+
+
+    <string-array name="Spinner_items2">
+        <item>Température</item>
+        <item>Cuisine</item>
+        <item>Carburant</item>
+        <item>Vitesse</item>
+    </string-array>
+
+
+    <string-array name="Spinner_items3">
+        <item>Carburant</item>
+        <item>Cuisine</item>
+        <item>Température</item>
+        <item>Vitesse</item>
+    </string-array>
+
+
+    <string-array name="Spinner_items4">
+        <item>Vitesse</item>
+        <item>Cuisine</item>
+        <item>Température</item>
+        <item>Carburant</item>
+    </string-array>
+
+
+
+
+
+
+</resources>
