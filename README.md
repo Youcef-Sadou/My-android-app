@@ -29,3 +29,5 @@ J'ai mis chaque chaîne de texte dans le string.xml, et tout se traduit bien
 
 ***Spinner***
 Pour le Spinner, j'ai choisi de faire un spinner qui me permet de basculer entre différents convertisseurs d'unités sans revenir à l'activité principale
+![Webp net-resizeimage](https://user-images.githubusercontent.com/61503552/109715593-21fcca00-7ba4-11eb-9703-a0ae1cc4fc11.jpg)
+
