@@ -7,6 +7,8 @@ L'application contient 5 activités au total, la principale qui a 4 boutons qui 
 ***ACTIVITÉS «CONVERTIR»***
 les 4 activités ont une structure similaire, j'ai choisi d'implémenter la conversion avec des groupes radio, il vous suffit d'entrer la valeur et de choisir l'unité que vous souhaitez convertir, elle convertira automatiquement l'unité sélectionnée en toutes les autres unités.
 
+![05b978fd-7697-4565-8a64-325e619be457](https://user-images.githubusercontent.com/61503552/109714705-080eb780-7ba3-11eb-88f8-6498737f8377.gif)
+
 
 
 la meilleure façon de penser pour minimiser la quantité de code nécessaire est de choisir une unité de base (km / h par exemple) et de créer des fonctions qui convertissent vers et à partir de cette unité de base, donc si l'utilisateur sélectionne une unité qui n'est pas la base unité, nous convertissons l'unité choisie en unité de base, puis nous convertissons en toutes les autres unités en utilisant l'unité de base
