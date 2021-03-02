@@ -2,6 +2,7 @@ package com.example.uc;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -77,8 +78,8 @@ public class Fuel extends AppCompatActivity implements AdapterView.OnItemSelecte
         final float outputValue = kl_to_ml(inputValue);
         final float outputValue2 = kl_to_kg(inputValue);
 
-        final String outputStr = String.format("%.2f", outputValue);
-        final String outputStr2 = String.format("%.2f", outputValue2);
+        @SuppressLint("DefaultLocale") final String outputStr = String.format("%.2f", outputValue);
+        @SuppressLint("DefaultLocale") final String outputStr2 = String.format("%.2f", outputValue2);
         kl.setText(inputStr);
         ml.setText(outputStr);
         kg.setText(outputStr2);
@@ -99,8 +100,8 @@ public class Fuel extends AppCompatActivity implements AdapterView.OnItemSelecte
         final float outputValue = ml_to_kl(inputValue);
         final float outputValue2 = kl_to_kg(outputValue);
 
-        final String outputStr = String.format("%.2f", outputValue);
-        final String outputStr2 = String.format("%.2f", outputValue2);
+        @SuppressLint("DefaultLocale") final String outputStr = String.format("%.2f", outputValue);
+        @SuppressLint("DefaultLocale") final String outputStr2 = String.format("%.2f", outputValue2);
         kl.setText(outputStr);
         ml.setText(inputStr);
         kg.setText(outputStr2);
@@ -122,8 +123,8 @@ public class Fuel extends AppCompatActivity implements AdapterView.OnItemSelecte
         final float outputValue = kg_to_kl(inputValue);
         final float outputValue2 = kl_to_ml(outputValue);
 
-        final String outputStr = String.format("%.2f", outputValue);
-        final String outputStr2 = String.format("%.2f", outputValue2);
+        @SuppressLint("DefaultLocale") final String outputStr = String.format("%.2f", outputValue);
+        @SuppressLint("DefaultLocale") final String outputStr2 = String.format("%.2f", outputValue2);
         kl.setText(outputStr);
         ml.setText(outputStr2);
         kg.setText(inputStr);

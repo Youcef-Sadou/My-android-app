@@ -2,6 +2,7 @@ package com.example.uc;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.AdapterView;
@@ -78,8 +79,8 @@ public class Temperature extends AppCompatActivity implements AdapterView.OnItem
             final float outputValue = c_to_f(inputValue);
             final float outputValue2 = c_to_k(inputValue);
 
-            final String outputStr = String.format("%.2f", outputValue);
-            final String outputStr2 = String.format("%.2f", outputValue2);
+            @SuppressLint("DefaultLocale") final String outputStr = String.format("%.2f", outputValue);
+            @SuppressLint("DefaultLocale") final String outputStr2 = String.format("%.2f", outputValue2);
             celsius.setText(inputStr);
             fahrenheit.setText(outputStr);
             kelvin.setText(outputStr2);
@@ -100,8 +101,8 @@ public class Temperature extends AppCompatActivity implements AdapterView.OnItem
         final float outputValue = f_to_c(inputValue);
         final float outputValue2 = c_to_k(outputValue);
 
-        final String outputStr = String.format("%.2f", outputValue);
-        final String outputStr2 = String.format("%.2f", outputValue2);
+        @SuppressLint("DefaultLocale") final String outputStr = String.format("%.2f", outputValue);
+        @SuppressLint("DefaultLocale") final String outputStr2 = String.format("%.2f", outputValue2);
         fahrenheit.setText(inputStr);
         celsius.setText(outputStr);
         kelvin.setText(outputStr2);
@@ -123,8 +124,8 @@ public class Temperature extends AppCompatActivity implements AdapterView.OnItem
         final float outputValue = k_to_c(inputValue);
         final float outputValue2 = c_to_f(outputValue);
 
-        final String outputStr = String.format("%.2f", outputValue);
-        final String outputStr2 = String.format("%.2f", outputValue2);
+        @SuppressLint("DefaultLocale") final String outputStr = String.format("%.2f", outputValue);
+        @SuppressLint("DefaultLocale") final String outputStr2 = String.format("%.2f", outputValue2);
         kelvin.setText(inputStr);
         celsius.setText(outputStr);
         fahrenheit.setText(outputStr2);

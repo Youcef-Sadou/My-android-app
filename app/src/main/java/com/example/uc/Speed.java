@@ -2,6 +2,7 @@ package com.example.uc;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -78,8 +79,8 @@ public class Speed extends AppCompatActivity implements AdapterView.OnItemSelect
         final float outputValue = ms_to_kh(inputValue);
         final float outputValue2 = ms_to_mh(inputValue);
 
-        final String outputStr = String.format("%.2f", outputValue);
-        final String outputStr2 = String.format("%.2f", outputValue2);
+        @SuppressLint("DefaultLocale") final String outputStr = String.format("%.2f", outputValue);
+        @SuppressLint("DefaultLocale") final String outputStr2 = String.format("%.2f", outputValue2);
         ms.setText(inputStr);
         kh.setText(outputStr);
         mh.setText(outputStr2);
@@ -100,7 +101,7 @@ public class Speed extends AppCompatActivity implements AdapterView.OnItemSelect
         final float outputValue = kh_to_ms(inputValue);
         final float outputValue2 = ms_to_mh(outputValue);
 
-        final String outputStr = String.format("%.2f", outputValue);
+        @SuppressLint("DefaultLocale") final String outputStr = String.format("%.2f", outputValue);
         final String outputStr2 = String.format("%.2f", outputValue2);
         ms.setText(outputStr);
         kh.setText(inputStr);
@@ -124,7 +125,7 @@ public class Speed extends AppCompatActivity implements AdapterView.OnItemSelect
         final float outputValue2 = ms_to_kh(outputValue);
 
         final String outputStr = String.format("%.2f", outputValue);
-        final String outputStr2 = String.format("%.2f", outputValue2);
+        @SuppressLint("DefaultLocale") final String outputStr2 = String.format("%.2f", outputValue2);
         ms.setText(outputStr);
         kh.setText(outputStr2);
         mh.setText(inputStr);

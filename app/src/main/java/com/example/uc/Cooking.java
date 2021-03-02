@@ -2,6 +2,7 @@ package com.example.uc;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -97,9 +98,9 @@ public class Cooking extends AppCompatActivity implements AdapterView.OnItemSele
         final float outputValue3 = c_to_tb(outputValue);
 
 
-        final String outputStr = String.format("%.2f", outputValue);
-        final String outputStr2 = String.format("%.2f", outputValue2);
-        final String outputStr3 = String.format("%.2f", outputValue3);
+        @SuppressLint("DefaultLocale") final String outputStr = String.format("%.2f", outputValue);
+        @SuppressLint("DefaultLocale") final String outputStr2 = String.format("%.2f", outputValue2);
+        @SuppressLint("DefaultLocale") final String outputStr3 = String.format("%.2f", outputValue3);
         ml.setText(inputStr);
         c.setText(outputStr);
         ts.setText(outputStr2);
@@ -124,9 +125,9 @@ public class Cooking extends AppCompatActivity implements AdapterView.OnItemSele
         final float outputValue3 = c_to_tb(outputValue);
 
 
-        final String outputStr = String.format("%.2f", outputValue);
-        final String outputStr2 = String.format("%.2f", outputValue2);
-        final String outputStr3 = String.format("%.2f", outputValue3);
+        @SuppressLint("DefaultLocale") final String outputStr = String.format("%.2f", outputValue);
+        @SuppressLint("DefaultLocale") final String outputStr2 = String.format("%.2f", outputValue2);
+        @SuppressLint("DefaultLocale") final String outputStr3 = String.format("%.2f", outputValue3);
         ts.setText(inputStr);
         c.setText(outputStr);
         ml.setText(outputStr2);
@@ -156,9 +157,9 @@ public class Cooking extends AppCompatActivity implements AdapterView.OnItemSele
         final float outputValue3 = c_to_ts(outputValue);
 
 
-        final String outputStr = String.format("%.2f", outputValue);
-        final String outputStr2 = String.format("%.2f", outputValue2);
-        final String outputStr3 = String.format("%.2f", outputValue3);
+        @SuppressLint("DefaultLocale") final String outputStr = String.format("%.2f", outputValue);
+        @SuppressLint("DefaultLocale") final String outputStr2 = String.format("%.2f", outputValue2);
+        @SuppressLint("DefaultLocale") final String outputStr3 = String.format("%.2f", outputValue3);
         tb.setText(inputStr);
         c.setText(outputStr);
         ml.setText(outputStr2);
@@ -185,9 +186,9 @@ public class Cooking extends AppCompatActivity implements AdapterView.OnItemSele
         final float outputValue3 = c_to_tb(inputValue);
 
 
-        final String outputStr = String.format("%.2f", outputValue);
-        final String outputStr2 = String.format("%.2f", outputValue2);
-        final String outputStr3 = String.format("%.2f", outputValue3);
+        @SuppressLint("DefaultLocale") final String outputStr = String.format("%.2f", outputValue);
+        @SuppressLint("DefaultLocale") final String outputStr2 = String.format("%.2f", outputValue2);
+        @SuppressLint("DefaultLocale") final String outputStr3 = String.format("%.2f", outputValue3);
         c.setText(inputStr);
         ml.setText(outputStr);
         ts.setText(outputStr2);
