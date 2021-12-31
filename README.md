@@ -74,6 +74,7 @@ I put each text string in the string.xml, and everything translates fine
 
 ***Spinner***
 For the Spinner, I chose to make a spinner that allows me to switch between different unit converters without going back to the main activity
+
 ![Webp net-resizeimage](https://user-images.githubusercontent.com/61503552/109715593-21fcca00-7ba4-11eb-9703-a0ae1cc4fc11.jpg)
 
 
