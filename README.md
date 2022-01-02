@@ -1,4 +1,4 @@
-# My-android-app
+# Unit-Converter-App
 
 
 Ce readme est disponible en deux langues: [Anglais](#english) et [Français](#français)
